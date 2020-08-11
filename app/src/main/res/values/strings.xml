@@ -1,0 +1,115 @@
+<resources>
+    <string name="app_name">Solvee</string>
+    <string-array name="Pilih_kategori">
+        <item>-Pilih Kategori-</item>
+        <item>Kesehatan</item>
+        <item>Infrastuktur</item>
+        <item>Pertanian</item>
+        <item>Bidang Kesejahteraan Rakyat</item>
+        <item>Bantuan Pangan</item>
+        <item>Bidang Perekonomian</item>
+        <item>Politik, Hukum, dan Keamanan</item>
+    </string-array>
+    <string-array name="pilih_provinsi">
+        <item>-Pilih Provinsi-</item>
+        <item>Aceh</item>
+        <item>Sumatera Utara</item>
+        <item>Sumatera Barat</item>
+        <item>Jambi</item>
+        <item>Riau</item>
+        <item>Kepualauan Riau</item>
+        <item>Bangka Belitung</item>
+        <item>Sumatera Selatan</item>
+        <item>Lampung</item>
+        <item>Jakarta</item>
+        <item>Jawa Barat</item>
+        <item>Jawa Tengah</item>
+        <item>Jawa Timur</item>
+        <item>DI Yogyakarta</item>
+        <item>Banten</item>
+        <item>Bali</item>
+        <item>Nusa Tenggara Barat</item>
+        <item>Nusa Tenggara Timur</item>
+        <item>Kalimantan Barat</item>
+        <item>Kalimantan Selatan</item>
+        <item>Kalimantan Tengah</item>
+        <item>Kalimantan Timur</item>
+        <item>Kalimantan Utara</item>
+        <item>Gorontalo</item>
+        <item>Sulawesi Barat</item>
+        <item>Sulawesi Tenggara</item>
+        <item>Sulawesi Tengah</item>
+        <item>Sulawesi Utara</item>
+        <item>Maluku</item>
+        <item>Maluku Utara</item>
+        <item>Papua</item>
+        <item>Papua Barat</item>
+    </string-array>
+
+    <string-array name="pilih_kabupaten">
+        <item>-Pilih Kabupaten</item>
+        <item>Tapanuli Utara</item>
+        <item>Tapanuli Selatan</item>
+        <item>Toba</item>
+        <item>Samosir</item>
+        <item>Kota Madya Medan</item>
+        <item>Kota Madya Pematangsiantar</item>
+        <item>Kota Madya Sibolga</item>
+        <item>Tapanuli Tengah</item>
+        <item>Humbang Hasundutan</item>
+        <item>Asahan</item>
+        <item>Batu Bara</item>
+        <item>Dairi</item>
+        <item>Deli Serdang</item>
+        <item>Karo</item>
+        <item>Labuhanbatu</item>
+        <item>Labuhanbatu Selatan</item>
+        <item>Labuhanbatu Utara</item>
+        <item>Langkat</item>
+        <item>Nias</item>
+        <item>Nias Barat</item>
+        <item>Nias Selatan</item>
+        <item>Nias Utara</item>
+        <item>Padang Lawas</item>
+        <item>Kota Tebing Tinggi</item>
+        <item>Kota Tanjung Balai</item>
+    </string-array>
+
+    <string-array name="pilih_kecamatan">
+        <item>-Pilih Kecamatan-</item>
+        <item>Balige</item>
+        <item>Tampahan</item>
+        <item>Laguboti</item>
+        <item>Habinsaran</item>
+        <item>Porsea</item>
+        <item>Siantar Narumonda</item>
+        <item>Silaen</item>
+        <item>Sigumpar</item>
+        <item>Lumban Julu</item>
+        <item>Borbor</item>
+        <item>Nassau</item>
+        <item>Pintu Pohan Meranti</item>
+        <item>Parmaksian</item>
+        <item>Uluan</item>
+        <item>Bonatua Lunasi</item>
+        <item>Ajibata</item>
+    </string-array>
+
+    <string-array name="pilih_desa">
+        <item>-Pilih Desa-</item>
+        <item>Pardomuan Nauli</item>
+        <item>Ujung Tanduk</item>
+        <item>Pintu Bosi</item>
+        <item>Gasa Ribu</item>
+        <item>Pasar Lagu Boti</item>
+        <item>Aruan</item>
+        <item>Lumban Bagasan</item>
+        <item>Tinggir Nipasir</item>
+        <item>Ompu Raja Hutapea</item>
+        <item>Sitoluama</item>
+        <item>Lumban Binanga</item>
+        <item>Pardinggaran</item>
+    </string-array>
+
+    <string name="title_activity_splash">SplashActivity</string>
+</resources>

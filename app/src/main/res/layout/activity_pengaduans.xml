@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="100px"
+    android:orientation="vertical"
+    tools:context=".Pengaduans">
+    <TextView
+        android:id="@+id/judulnya"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Kerusakan Toilet Umum"
+        android:textAlignment="center"
+        android:layout_marginTop="50px"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:textColor="@color/colorAccent"
+
+        android:gravity="center_horizontal" />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="10px"
+        android:layout_marginTop="10px"
+        android:background="#08D37B"
+        />
+    <TextView
+        android:id="@+id/niknya"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50px"
+        android:text="NIK : "
+        />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:layout_marginTop="10px"
+        android:background="#151515"
+
+        />
+    <TextView
+        android:id="@+id/namanya"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10px"
+        android:text="Nama : "
+        />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:layout_marginTop="10px"
+        android:background="#151515"
+        />
+
+    <TextView
+        android:id="@+id/deskripsinya"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Deskripsi :"
+        />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:layout_marginTop="10px"
+        android:background="#151515"
+        />
+    <TextView
+        android:id="@+id/lokasinya"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Lokasi :"
+        />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:layout_marginTop="10px"
+        android:background="#151515"
+
+        />
+    <TextView
+        android:id="@+id/detailnya"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Detail Lokasi :"
+        />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:layout_marginTop="10px"
+        android:background="#151515"
+        />
+    <TextView
+        android:id="@+id/statusnya"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Status :"
+        />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:layout_marginTop="10px"
+        android:background="#151515"
+        />
+</LinearLayout>

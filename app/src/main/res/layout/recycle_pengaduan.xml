@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardElevation="3dp"
+    app:cardCornerRadius="6dp"
+    app:cardUseCompatPadding="true"
+    >
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="30px"
+        android:paddingRight="30px"
+        android:paddingTop="10px"
+        android:paddingBottom="10px"
+        >
+
+        <TextView
+            android:id="@+id/judul"
+            android:layout_width="match_parent"
+            android:textAlignment="center"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_marginRight="30px"
+            tools:text="Judul"
+            android:gravity="center_horizontal"
+            android:textSize="20sp"
+            android:textColor="@color/green"
+            />
+
+        <TextView
+            android:id="@+id/pembuat"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/judul"
+            tools:text="Dibuat Oleh Johannes Manurung"
+            />
+        <View
+            android:id="@+id/line"
+            android:layout_marginTop="10px"
+            android:layout_marginBottom="20px"
+            android:layout_width="match_parent"
+            android:layout_height="10px"
+            android:layout_below="@id/pembuat"
+            android:background="#D8D8D8"
+
+            />
+        <TextView
+            android:id="@+id/isi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/line"
+            android:textColor="#000"
+            android:text="sssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssss"
+            android:layout_marginBottom="30px"
+            />
+        <TextView
+            android:id="@+id/status"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#000"
+            android:text="Status : Belum di proses"
+            android:layout_marginBottom="30px"
+            android:layout_below="@+id/isi"
+            />
+        <TextView
+            android:id="@+id/tanggal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:layout_below="@+id/status"
+            android:layout_gravity="bottom|start"
+            tools:text="2020-05-21"
+            />
+
+
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>
