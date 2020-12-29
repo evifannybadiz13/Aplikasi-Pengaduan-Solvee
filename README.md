@@ -1,0 +1,2 @@
+# Aplikasi-Pengaduan-Solvee
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/abb055e3511f46658d9b97942f84d155)](https://app.codacy.com/gh/evifannybadiz13/Aplikasi-Pengaduan-Solvee?utm_source=github.com&utm_medium=referral&utm_content=evifannybadiz13/Aplikasi-Pengaduan-Solvee&utm_campaign=Badge_Grade)
