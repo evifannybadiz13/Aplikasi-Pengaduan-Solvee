@@ -23,6 +23,17 @@ allprojects {
         
     }
 }
+plugins {
+  id "org.sonarqube" version "3.0"
+}
+
+sonarqube {
+  properties {
+    property "sonar.projectKey", "evifannybadiz13_Aplikasi-Pengaduan-Solvee"
+    property "sonar.organization", "ratubadiz13"
+    property "sonar.host.url", "https://sonarcloud.io"
+  }
+}
 
 task clean(type: Delete) {
     delete rootProject.buildDir
